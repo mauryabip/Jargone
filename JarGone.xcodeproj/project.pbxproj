@@ -8,24 +8,51 @@
 
 /* Begin PBXBuildFile section */
 		F802CBF71F404C7B00C690EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F802CBF61F404C7B00C690EF /* main.m */; };
-		F802CBFA1F404C7B00C690EF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F802CBF91F404C7B00C690EF /* AppDelegate.m */; };
-		F802CBFD1F404C7B00C690EF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F802CBFC1F404C7B00C690EF /* ViewController.m */; };
 		F802CC001F404C7B00C690EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F802CBFE1F404C7B00C690EF /* Main.storyboard */; };
 		F802CC021F404C7B00C690EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F802CC011F404C7B00C690EF /* Assets.xcassets */; };
 		F802CC051F404C7B00C690EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F802CC031F404C7B00C690EF /* LaunchScreen.storyboard */; };
+		F802CC1F1F404E2D00C690EF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F802CC161F404E2D00C690EF /* AppDelegate.m */; };
+		F802CC201F404E2E00C690EF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F802CC181F404E2D00C690EF /* ViewController.m */; };
+		F802CC211F404E2E00C690EF /* audiobtn.png in Resources */ = {isa = PBXBuildFile; fileRef = F802CC1A1F404E2D00C690EF /* audiobtn.png */; };
+		F802CC221F404E2E00C690EF /* cusmap.PNG in Resources */ = {isa = PBXBuildFile; fileRef = F802CC1B1F404E2D00C690EF /* cusmap.PNG */; };
+		F802CC231F404E2E00C690EF /* imgbtn.png in Resources */ = {isa = PBXBuildFile; fileRef = F802CC1C1F404E2D00C690EF /* imgbtn.png */; };
+		F802CC241F404E2E00C690EF /* logo.PNG in Resources */ = {isa = PBXBuildFile; fileRef = F802CC1D1F404E2D00C690EF /* logo.PNG */; };
+		F802CC251F404E2E00C690EF /* mapbtn.png in Resources */ = {isa = PBXBuildFile; fileRef = F802CC1E1F404E2D00C690EF /* mapbtn.png */; };
+		F802CC281F40557F00C690EF /* DepartmentVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F802CC271F40557F00C690EF /* DepartmentVC.m */; };
+		F802CC2B1F40562200C690EF /* left-arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F802CC291F40562200C690EF /* left-arrow@2x.png */; };
+		F802CC2C1F40562200C690EF /* left-arrow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F802CC2A1F40562200C690EF /* left-arrow@3x.png */; };
+		F802CC2F1F4058DE00C690EF /* down-arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F802CC2D1F4058DE00C690EF /* down-arrow@2x.png */; };
+		F802CC301F4058DE00C690EF /* down-arrow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F802CC2E1F4058DE00C690EF /* down-arrow@3x.png */; };
+		F802CC331F405EAB00C690EF /* DepartmentDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F802CC321F405EAB00C690EF /* DepartmentDetailVC.m */; };
+		F81D635F1F406742001B1060 /* DepartmentDetailViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F81D635E1F406742001B1060 /* DepartmentDetailViewVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F802CBF21F404C7B00C690EF /* JarGone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JarGone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F802CBF61F404C7B00C690EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F802CBF81F404C7B00C690EF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		F802CBF91F404C7B00C690EF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F802CBFB1F404C7B00C690EF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F802CBFC1F404C7B00C690EF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F802CBFF1F404C7B00C690EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F802CC011F404C7B00C690EF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F802CC041F404C7B00C690EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F802CC061F404C7B00C690EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F802CC151F404E2D00C690EF /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F802CC161F404E2D00C690EF /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F802CC171F404E2D00C690EF /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F802CC181F404E2D00C690EF /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F802CC1A1F404E2D00C690EF /* audiobtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = audiobtn.png; sourceTree = "<group>"; };
+		F802CC1B1F404E2D00C690EF /* cusmap.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cusmap.PNG; sourceTree = "<group>"; };
+		F802CC1C1F404E2D00C690EF /* imgbtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imgbtn.png; sourceTree = "<group>"; };
+		F802CC1D1F404E2D00C690EF /* logo.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.PNG; sourceTree = "<group>"; };
+		F802CC1E1F404E2D00C690EF /* mapbtn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mapbtn.png; sourceTree = "<group>"; };
+		F802CC261F40557F00C690EF /* DepartmentVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DepartmentVC.h; sourceTree = "<group>"; };
+		F802CC271F40557F00C690EF /* DepartmentVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DepartmentVC.m; sourceTree = "<group>"; };
+		F802CC291F40562200C690EF /* left-arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "left-arrow@2x.png"; sourceTree = "<group>"; };
+		F802CC2A1F40562200C690EF /* left-arrow@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "left-arrow@3x.png"; sourceTree = "<group>"; };
+		F802CC2D1F4058DE00C690EF /* down-arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "down-arrow@2x.png"; sourceTree = "<group>"; };
+		F802CC2E1F4058DE00C690EF /* down-arrow@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "down-arrow@3x.png"; sourceTree = "<group>"; };
+		F802CC311F405EAB00C690EF /* DepartmentDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DepartmentDetailVC.h; sourceTree = "<group>"; };
+		F802CC321F405EAB00C690EF /* DepartmentDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DepartmentDetailVC.m; sourceTree = "<group>"; };
+		F81D635D1F406742001B1060 /* DepartmentDetailViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DepartmentDetailViewVC.h; sourceTree = "<group>"; };
+		F81D635E1F406742001B1060 /* DepartmentDetailViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DepartmentDetailViewVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +85,8 @@
 		F802CBF41F404C7B00C690EF /* JarGone */ = {
 			isa = PBXGroup;
 			children = (
-				F802CBF81F404C7B00C690EF /* AppDelegate.h */,
-				F802CBF91F404C7B00C690EF /* AppDelegate.m */,
-				F802CBFB1F404C7B00C690EF /* ViewController.h */,
-				F802CBFC1F404C7B00C690EF /* ViewController.m */,
+				F802CC141F404E2D00C690EF /* Controller */,
+				F802CC191F404E2D00C690EF /* Resource */,
 				F802CBFE1F404C7B00C690EF /* Main.storyboard */,
 				F802CC011F404C7B00C690EF /* Assets.xcassets */,
 				F802CC031F404C7B00C690EF /* LaunchScreen.storyboard */,
@@ -77,6 +102,39 @@
 				F802CBF61F404C7B00C690EF /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F802CC141F404E2D00C690EF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F802CC151F404E2D00C690EF /* AppDelegate.h */,
+				F802CC161F404E2D00C690EF /* AppDelegate.m */,
+				F802CC171F404E2D00C690EF /* ViewController.h */,
+				F802CC181F404E2D00C690EF /* ViewController.m */,
+				F802CC261F40557F00C690EF /* DepartmentVC.h */,
+				F802CC271F40557F00C690EF /* DepartmentVC.m */,
+				F802CC311F405EAB00C690EF /* DepartmentDetailVC.h */,
+				F802CC321F405EAB00C690EF /* DepartmentDetailVC.m */,
+				F81D635D1F406742001B1060 /* DepartmentDetailViewVC.h */,
+				F81D635E1F406742001B1060 /* DepartmentDetailViewVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F802CC191F404E2D00C690EF /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				F802CC2D1F4058DE00C690EF /* down-arrow@2x.png */,
+				F802CC2E1F4058DE00C690EF /* down-arrow@3x.png */,
+				F802CC291F40562200C690EF /* left-arrow@2x.png */,
+				F802CC2A1F40562200C690EF /* left-arrow@3x.png */,
+				F802CC1A1F404E2D00C690EF /* audiobtn.png */,
+				F802CC1B1F404E2D00C690EF /* cusmap.PNG */,
+				F802CC1C1F404E2D00C690EF /* imgbtn.png */,
+				F802CC1D1F404E2D00C690EF /* logo.PNG */,
+				F802CC1E1F404E2D00C690EF /* mapbtn.png */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +195,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F802CC241F404E2E00C690EF /* logo.PNG in Resources */,
+				F802CC2F1F4058DE00C690EF /* down-arrow@2x.png in Resources */,
 				F802CC051F404C7B00C690EF /* LaunchScreen.storyboard in Resources */,
+				F802CC2C1F40562200C690EF /* left-arrow@3x.png in Resources */,
+				F802CC221F404E2E00C690EF /* cusmap.PNG in Resources */,
+				F802CC231F404E2E00C690EF /* imgbtn.png in Resources */,
+				F802CC211F404E2E00C690EF /* audiobtn.png in Resources */,
 				F802CC021F404C7B00C690EF /* Assets.xcassets in Resources */,
 				F802CC001F404C7B00C690EF /* Main.storyboard in Resources */,
+				F802CC2B1F40562200C690EF /* left-arrow@2x.png in Resources */,
+				F802CC251F404E2E00C690EF /* mapbtn.png in Resources */,
+				F802CC301F4058DE00C690EF /* down-arrow@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,9 +217,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F802CBFD1F404C7B00C690EF /* ViewController.m in Sources */,
-				F802CBFA1F404C7B00C690EF /* AppDelegate.m in Sources */,
+				F802CC1F1F404E2D00C690EF /* AppDelegate.m in Sources */,
 				F802CBF71F404C7B00C690EF /* main.m in Sources */,
+				F81D635F1F406742001B1060 /* DepartmentDetailViewVC.m in Sources */,
+				F802CC281F40557F00C690EF /* DepartmentVC.m in Sources */,
+				F802CC331F405EAB00C690EF /* DepartmentDetailVC.m in Sources */,
+				F802CC201F404E2E00C690EF /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +343,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JarGone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jargone.com.JarGone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -284,6 +355,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JarGone/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jargone.com.JarGone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -309,6 +381,7 @@
 				F802CC0B1F404C7B00C690EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
