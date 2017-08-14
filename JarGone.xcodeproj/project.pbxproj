@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A5BA0FB31F416ACA00250BAA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5BA0FB21F416ACA00250BAA /* QuartzCore.framework */; };
+		A5BA0FB51F416AD000250BAA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5BA0FB41F416AD000250BAA /* AVFoundation.framework */; };
+		A5BA0FB71F416AD500250BAA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5BA0FB61F416AD500250BAA /* UIKit.framework */; };
+		A5BA0FB91F416ADB00250BAA /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5BA0FB81F416ADB00250BAA /* CoreFoundation.framework */; };
 		F802CBF71F404C7B00C690EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F802CBF61F404C7B00C690EF /* main.m */; };
 		F802CC001F404C7B00C690EF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F802CBFE1F404C7B00C690EF /* Main.storyboard */; };
 		F802CC021F404C7B00C690EF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F802CC011F404C7B00C690EF /* Assets.xcassets */; };
@@ -28,6 +32,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A5BA0FB21F416ACA00250BAA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A5BA0FB41F416AD000250BAA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A5BA0FB61F416AD500250BAA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A5BA0FB81F416ADB00250BAA /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		F802CBF21F404C7B00C690EF /* JarGone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JarGone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F802CBF61F404C7B00C690EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F802CBFF1F404C7B00C690EF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -60,17 +68,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5BA0FB91F416ADB00250BAA /* CoreFoundation.framework in Frameworks */,
+				A5BA0FB71F416AD500250BAA /* UIKit.framework in Frameworks */,
+				A5BA0FB51F416AD000250BAA /* AVFoundation.framework in Frameworks */,
+				A5BA0FB31F416ACA00250BAA /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A5BA0FB11F416ACA00250BAA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5BA0FB81F416ADB00250BAA /* CoreFoundation.framework */,
+				A5BA0FB61F416AD500250BAA /* UIKit.framework */,
+				A5BA0FB41F416AD000250BAA /* AVFoundation.framework */,
+				A5BA0FB21F416ACA00250BAA /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F802CBE91F404C7B00C690EF = {
 			isa = PBXGroup;
 			children = (
 				F802CBF41F404C7B00C690EF /* JarGone */,
 				F802CBF31F404C7B00C690EF /* Products */,
+				A5BA0FB11F416ACA00250BAA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -168,7 +192,8 @@
 				TargetAttributes = {
 					F802CBF11F404C7B00C690EF = {
 						CreatedOnToolsVersion = 8.3.3;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = CBZE86VY6D;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -342,11 +367,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = CBZE86VY6D;
 				INFOPLIST_FILE = JarGone/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jargone.com.JarGone;
+				PRODUCT_BUNDLE_IDENTIFIER = com.floristdev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a8c69121-7c33-4d11-8b06-12456489f95e";
+				PROVISIONING_PROFILE_SPECIFIER = floristdev;
 			};
 			name = Debug;
 		};
@@ -354,11 +383,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = CBZE86VY6D;
 				INFOPLIST_FILE = JarGone/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jargone.com.JarGone;
+				PRODUCT_BUNDLE_IDENTIFIER = com.floristdev;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a8c69121-7c33-4d11-8b06-12456489f95e";
+				PROVISIONING_PROFILE_SPECIFIER = floristdev;
 			};
 			name = Release;
 		};

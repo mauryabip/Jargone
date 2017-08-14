@@ -8,10 +8,12 @@
 
 #import "DepartmentDetailViewVC.h"
 #import <QuartzCore/QuartzCore.h>
+#import <AVFoundation/AVFoundation.h>
 
 @interface DepartmentDetailViewVC ()
 @property (weak, nonatomic) IBOutlet UILabel *textLbl;
 @property (weak, nonatomic) IBOutlet UIView *topView;
+@property (weak, nonatomic) IBOutlet UIView *bottomView;
 
 @end
 
@@ -23,14 +25,16 @@
     // Do any additional setup after loading the view.
     self.topView.layer.cornerRadius=10;
     self.topView.layer.masksToBounds=YES;
+
+    self.textLbl.text=_controllerStr;
     
-    UIBezierPath *shadowPath = [UIBezierPath bezierPathWithRect:self.topView.bounds];
-    self.topView.layer.masksToBounds = NO;
-    self.topView.layer.shadowColor = [UIColor blackColor].CGColor;
-    self.topView.layer.shadowOffset = CGSizeMake(0.0f, 5.0f);
-    self.topView.layer.shadowOpacity = 0.5f;
-    self.topView.layer.shadowPath = shadowPath.CGPath;
-    
+    if ([_controllerStr length]==0) {
+        AVSpeechUtterance *utterance = [AVSpeechUtterance
+                                        speechUtteranceWithString:@"Go straight and turn right side"];
+        AVSpeechSynthesizer *synth = [[AVSpeechSynthesizer alloc] init];
+        [synth speakUtterance:utterance];
+
+    }
 }
 - (IBAction)backAction:(id)sender {
     [self.navigationController popViewControllerAnimated:YES];
@@ -40,6 +44,7 @@
     // Dispose of any resources that can be recreated.
 }
 - (IBAction)nextAction:(id)sender {
+    self.topView.hidden=YES;
 }
 
 /*

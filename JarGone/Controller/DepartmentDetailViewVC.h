@@ -10,4 +10,7 @@
 
 @interface DepartmentDetailViewVC : UIViewController
 
+@property (strong,nonatomic) NSString *controllerStr;
+
+
 @end

@@ -31,13 +31,13 @@
 }
 - (IBAction)distanceAction:(id)sender {
     DepartmentDetailViewVC *DepartmentDetailViewVC=[self.storyboard instantiateViewControllerWithIdentifier:@"DepartmentDetailViewVC"];
-  //  DepartmentDetailVC.departmentTitleStr=self.departmentLbl.text;
+    DepartmentDetailViewVC.controllerStr=@"Go to Straight 10m";
     [self.navigationController pushViewController:DepartmentDetailViewVC animated:YES];
     
 }
 - (IBAction)mapAction:(id)sender {
     DepartmentDetailViewVC *DepartmentDetailViewVC=[self.storyboard instantiateViewControllerWithIdentifier:@"DepartmentDetailViewVC"];
-    //  DepartmentDetailVC.departmentTitleStr=self.departmentLbl.text;
+     DepartmentDetailViewVC.controllerStr=@"Right now you are at gate";
     [self.navigationController pushViewController:DepartmentDetailViewVC animated:YES];
     
 }
