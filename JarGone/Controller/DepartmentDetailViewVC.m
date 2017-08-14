@@ -30,7 +30,20 @@
     
     if ([_controllerStr length]==0) {
         AVSpeechUtterance *utterance = [AVSpeechUtterance
-                                        speechUtteranceWithString:@"Go straight and turn right side"];
+                                        speechUtteranceWithString:@"Haere tika ka tahuri ki te taha matau"];
+        
+       // 你好，你好吗
+        utterance.voice = [AVSpeechSynthesisVoice voiceWithLanguage:@"en_NZ"];
+        
+        /*
+         en_NZ	English (New Zealand)
+         
+         Chinese (China) - zh-CN
+         Hindi (India) - hi-IN
+         English (United Kingdom) - en-GB
+         English (United States) - en-US
+         */
+
         AVSpeechSynthesizer *synth = [[AVSpeechSynthesizer alloc] init];
         [synth speakUtterance:utterance];
 
