@@ -29,6 +29,9 @@
 		F802CC301F4058DE00C690EF /* down-arrow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F802CC2E1F4058DE00C690EF /* down-arrow@3x.png */; };
 		F802CC331F405EAB00C690EF /* DepartmentDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F802CC321F405EAB00C690EF /* DepartmentDetailVC.m */; };
 		F81D635F1F406742001B1060 /* DepartmentDetailViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F81D635E1F406742001B1060 /* DepartmentDetailViewVC.m */; };
+		F82633A91F4A9BF0004B4083 /* HospitalVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F82633A81F4A9BF0004B4083 /* HospitalVC.m */; };
+		F82633AC1F4A9C03004B4083 /* HospitalDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F82633AB1F4A9C03004B4083 /* HospitalDetailVC.m */; };
+		F82633AE1F4A9E86004B4083 /* New_Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = F82633AD1F4A9E86004B4083 /* New_Logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +64,11 @@
 		F802CC321F405EAB00C690EF /* DepartmentDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DepartmentDetailVC.m; sourceTree = "<group>"; };
 		F81D635D1F406742001B1060 /* DepartmentDetailViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DepartmentDetailViewVC.h; sourceTree = "<group>"; };
 		F81D635E1F406742001B1060 /* DepartmentDetailViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DepartmentDetailViewVC.m; sourceTree = "<group>"; };
+		F82633A71F4A9BF0004B4083 /* HospitalVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HospitalVC.h; sourceTree = "<group>"; };
+		F82633A81F4A9BF0004B4083 /* HospitalVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HospitalVC.m; sourceTree = "<group>"; };
+		F82633AA1F4A9C03004B4083 /* HospitalDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HospitalDetailVC.h; sourceTree = "<group>"; };
+		F82633AB1F4A9C03004B4083 /* HospitalDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HospitalDetailVC.m; sourceTree = "<group>"; };
+		F82633AD1F4A9E86004B4083 /* New_Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = New_Logo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +143,10 @@
 				F802CC161F404E2D00C690EF /* AppDelegate.m */,
 				F802CC171F404E2D00C690EF /* ViewController.h */,
 				F802CC181F404E2D00C690EF /* ViewController.m */,
+				F82633A71F4A9BF0004B4083 /* HospitalVC.h */,
+				F82633A81F4A9BF0004B4083 /* HospitalVC.m */,
+				F82633AA1F4A9C03004B4083 /* HospitalDetailVC.h */,
+				F82633AB1F4A9C03004B4083 /* HospitalDetailVC.m */,
 				F802CC261F40557F00C690EF /* DepartmentVC.h */,
 				F802CC271F40557F00C690EF /* DepartmentVC.m */,
 				F802CC311F405EAB00C690EF /* DepartmentDetailVC.h */,
@@ -148,6 +160,7 @@
 		F802CC191F404E2D00C690EF /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				F82633AD1F4A9E86004B4083 /* New_Logo.png */,
 				F802CC2D1F4058DE00C690EF /* down-arrow@2x.png */,
 				F802CC2E1F4058DE00C690EF /* down-arrow@3x.png */,
 				F802CC291F40562200C690EF /* left-arrow@2x.png */,
@@ -221,6 +234,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F802CC241F404E2E00C690EF /* logo.PNG in Resources */,
+				F82633AE1F4A9E86004B4083 /* New_Logo.png in Resources */,
 				F802CC2F1F4058DE00C690EF /* down-arrow@2x.png in Resources */,
 				F802CC051F404C7B00C690EF /* LaunchScreen.storyboard in Resources */,
 				F802CC2C1F40562200C690EF /* left-arrow@3x.png in Resources */,
@@ -246,6 +260,8 @@
 				F802CBF71F404C7B00C690EF /* main.m in Sources */,
 				F81D635F1F406742001B1060 /* DepartmentDetailViewVC.m in Sources */,
 				F802CC281F40557F00C690EF /* DepartmentVC.m in Sources */,
+				F82633A91F4A9BF0004B4083 /* HospitalVC.m in Sources */,
+				F82633AC1F4A9C03004B4083 /* HospitalDetailVC.m in Sources */,
 				F802CC331F405EAB00C690EF /* DepartmentDetailVC.m in Sources */,
 				F802CC201F404E2E00C690EF /* ViewController.m in Sources */,
 			);

@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "DepartmentVC.h"
+#import "HospitalVC.h"
 
 @interface ViewController ()
 
@@ -28,8 +28,8 @@
     // Dispose of any resources that can be recreated.
 }
 - (IBAction)englishLangAction:(id)sender {
-    DepartmentVC *DepartmentVC=[self.storyboard instantiateViewControllerWithIdentifier:@"DepartmentVC"];
-    [self.navigationController pushViewController:DepartmentVC animated:YES];
+    HospitalVC *HospitalVC=[self.storyboard instantiateViewControllerWithIdentifier:@"HospitalVC"];
+    [self.navigationController pushViewController:HospitalVC animated:YES];
 }
 
 
