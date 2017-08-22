@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A5610D721F4C01F500599F8B /* hospital_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = A5610D711F4C01F500599F8B /* hospital_logo.png */; };
 		A5BA0FB31F416ACA00250BAA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5BA0FB21F416ACA00250BAA /* QuartzCore.framework */; };
 		A5BA0FB51F416AD000250BAA /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5BA0FB41F416AD000250BAA /* AVFoundation.framework */; };
 		A5BA0FB71F416AD500250BAA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5BA0FB61F416AD500250BAA /* UIKit.framework */; };
@@ -35,6 +36,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A5610D711F4C01F500599F8B /* hospital_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hospital_logo.png; sourceTree = "<group>"; };
 		A5BA0FB21F416ACA00250BAA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		A5BA0FB41F416AD000250BAA /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		A5BA0FB61F416AD500250BAA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -160,6 +162,7 @@
 		F802CC191F404E2D00C690EF /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				A5610D711F4C01F500599F8B /* hospital_logo.png */,
 				F82633AD1F4A9E86004B4083 /* New_Logo.png */,
 				F802CC2D1F4058DE00C690EF /* down-arrow@2x.png */,
 				F802CC2E1F4058DE00C690EF /* down-arrow@3x.png */,
@@ -245,6 +248,7 @@
 				F802CC001F404C7B00C690EF /* Main.storyboard in Resources */,
 				F802CC2B1F40562200C690EF /* left-arrow@2x.png in Resources */,
 				F802CC251F404E2E00C690EF /* mapbtn.png in Resources */,
+				A5610D721F4C01F500599F8B /* hospital_logo.png in Resources */,
 				F802CC301F4058DE00C690EF /* down-arrow@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
